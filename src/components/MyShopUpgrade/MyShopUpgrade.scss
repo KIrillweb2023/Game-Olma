@@ -1,0 +1,42 @@
+.upgrade {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    &__wrapper {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        column-gap: 30px;
+        position: relative;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 20%;
+        height: auto;
+        &:nth-child(1) {
+           position: absolute;
+           left: 0px;
+           top: -60px;
+        }
+        &:nth-child(4) {
+           position: absolute;
+           right: 0px;
+           top: -60px;
+        }
+
+        &_icon {
+            width: 50px;
+        }
+
+        &_title {
+            text-align: center;
+            color: #565656;
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.paytime {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    align-items: center;
+    &__icon {
+        width: 50px;
+    }
+    &__wrapper {
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        column-gap: 20px;
+        background-color: #ffffff1f;
+        border-radius: 100px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    &__title {
+        font-size: 14px;
+        color: #858585;
+    }
+
+    &__count {
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+    }
+}

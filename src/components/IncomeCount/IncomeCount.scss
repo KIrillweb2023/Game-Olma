@@ -1,0 +1,25 @@
+.coins {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    &__icon {
+        width: 35px;
+    }
+
+    &__title {
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}

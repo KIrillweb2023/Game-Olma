@@ -1,0 +1,38 @@
+.level {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+    &__title {
+        text-align: center;
+        color: #9c9c9c;
+    }
+
+    &__count {
+        position: absolute;
+        font-weight: 600;
+        color: #9c9c9c;
+    }
+
+    &__prev {
+        left: 5px;
+    }
+    &__next {
+        right: 5px;
+    }
+
+    &__container{
+        width: 100%;
+        height: 13px;
+        background-color: #ffffff25;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+
+    &__child {
+        width: 30%;
+        height: 13px;
+        border-radius: 20px;
+        background-color: #4b45bb;
+    }
+}
